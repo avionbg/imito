@@ -1,0 +1,11 @@
+TOOLCHAIN=arm-linux-gnueabihf-
+
+#ARCH=arm CROSS_COMPILE=$TOOLCHAIN make mk808b_defconfig
+#ARCH=arm CROSS_COMPILE=$TOOLCHAIN make mk808b_v5_defconfig
+#ARCH=arm CROSS_COMPILE=$TOOLCHAIN make rk30_sdk_defconfig
+#ARCH=arm CROSS_COMPILE=$TOOLCHAIN make rk30_hotdog_ti_kikat_defconfig
+
+ARCH=arm CROSS_COMPILE=$TOOLCHAIN make -j2
+#ARCH=arm CROSS_COMPILE=$TOOLCHAIN make -j2 modules
+#uImage
+#kernel.img

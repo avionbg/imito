@@ -1,0 +1,3 @@
+0x00000000	mtk_init_delayed_work	drivers/net/wireless/mt5931/wlan	EXPORT_SYMBOL
+0x00000000	rockchip_wifi_init_module	drivers/net/wireless/mt5931/wlan	EXPORT_SYMBOL
+0x00000000	rockchip_wifi_exit_module	drivers/net/wireless/mt5931/wlan	EXPORT_SYMBOL
